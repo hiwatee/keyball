@@ -74,7 +74,7 @@ void oledkit_render_info_user(void) {
 const uint16_t PROGMEM left_click[] = {KC_J, KC_K, COMBO_END};
 const uint16_t PROGMEM right_click[] = {KC_K, KC_L, COMBO_END};
 combo_t key_combos[] = {
-    COMBO(left_click, QK_MOUSE_BUTTON_1),
-    COMBO(right_click, QK_MOUSE_BUTTON_2),
+    COMBO(left_click, KC_BTN1),
+    COMBO(right_click, KC_BTN2),
 };
 #endif
