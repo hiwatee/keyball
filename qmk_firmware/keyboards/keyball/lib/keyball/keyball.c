@@ -30,8 +30,8 @@ const uint8_t CPI_MAX        = pmw3360_MAXCPI + 1;
 const uint8_t SCROLL_DIV_MAX = 7;
 
 const uint16_t AML_TIMEOUT_MIN = 30000;
-const uint16_t AML_TIMEOUT_MAX = 30000;
-const uint16_t AML_TIMEOUT_QU  = 50;   // Quantization Unit
+const uint16_t AML_TIMEOUT_MAX = 60000;
+const uint16_t AML_TIMEOUT_QU  = 1000;   // Quantization Unit
 
 static const char BL = '\xB0'; // Blank indicator character
 static const char LFSTR_ON[] PROGMEM = "\xB2\xB3";
