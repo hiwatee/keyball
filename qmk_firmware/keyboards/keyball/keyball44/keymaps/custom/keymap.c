@@ -71,7 +71,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
         case 2:
             rgblight_sethsv(HSV_GREEN);
             break;
-        case 3:
+        default:
             rgblight_sethsv(HSV_RED);
             break;
     }
