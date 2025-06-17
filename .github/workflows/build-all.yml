@@ -29,15 +29,6 @@ jobs:
             matrix:
                 keyboard: [keyball44]
                 keymap: [custom]
-                include:
-                    - keyboard: keyball46
-                      keymap: test_Left
-                    - keyboard: keyball46
-                      keymap: test_Both
-                    - keyboard: keyball46
-                      keymap: via_Left
-                    - keyboard: keyball46
-                      keymap: via_Both
 
         uses: ./.github/workflows/build-firmware.yml
         with:
