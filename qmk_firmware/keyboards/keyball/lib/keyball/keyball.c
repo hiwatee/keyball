@@ -31,7 +31,7 @@ const uint8_t SCROLL_DIV_MAX = 7;
 
 const uint16_t AML_TIMEOUT_MIN = 30000;
 const uint16_t AML_TIMEOUT_MAX = 60000;
-const uint16_t AML_TIMEOUT_QU  = 1000;   // Quantization Unit
+const uint16_t AML_TIMEOUT_QU  = 5000;   // Quantization Unit
 
 static const char BL = '\xB0'; // Blank indicator character
 static const char LFSTR_ON[] PROGMEM = "\xB2\xB3";
