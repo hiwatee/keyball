@@ -79,8 +79,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef LOCKING_RESYNC_ENABLE
 
 #define TAP_CODE_DELAY 5
-#define TAPPING_TERM 180
-
-#define PERMISSIVE_HOLD
-#define RETRO_TAPPING
-
+#define TAPPING_TERM        180   // 自分の打鍵速度に合わせて微調整
+#define QUICK_TAP_TERM      0     // タップ→ホールドを確実にホールドへ
