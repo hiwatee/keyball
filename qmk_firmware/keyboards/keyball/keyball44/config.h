@@ -77,3 +77,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // To squeeze firmware size
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
+
+#define TAP_CODE_DELAY 5
+#define TAPPING_TERM 180
+
+#define PERMISSIVE_HOLD
+#define RETRO_TAPPING
+
